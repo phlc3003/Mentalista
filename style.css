@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 600px;
+    background-image: url('https://conteudo.imguol.com.br/c/entretenimento/e0/2019/11/03/walter-mercado-1572801894403_v2_902x849.png');
+    background-color: #000000;
+    background-size: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 40px;
+    height: 30vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 10 10 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height:800px;
+    }
+  }
